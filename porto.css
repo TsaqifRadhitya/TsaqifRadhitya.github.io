@@ -1,0 +1,261 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    min-height: 100vh;
+    background-color: #ECE3CE;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.7vw 100px;
+    background-color: #4F6F52;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+}
+.navbar {
+    display:inline-flex;
+}
+
+.navbar a:hover {
+    color: #3A4D39;
+}
+.Judul{
+    color: white;
+    font-size: 2vw;
+    text-decoration: none;
+    padding-right: 50%;
+}
+
+.Home,.ABOUT,.SKILL,.CONTACT {
+    color: white;
+    font-size: 1.2vw;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#Pertama {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 100px 0px 100px;
+    margin-top: 10%;
+}
+.greeting {
+    margin: -200px 70px 0px 50px;
+    padding-right: 10px;
+}
+
+.Halo {
+    font-size: 2vw;
+}
+.Nama {
+    font-size: 4vw;
+}
+
+.narasi {
+    font-size: 2vw;
+}
+
+.Profil {
+    width: 35%;
+    
+}
+
+#judul_2 {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 4vw;
+    padding-top: 5%;
+}
+
+.kedua {
+    background-color: #4F6F52;
+    width: auto;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+.nama,.asal,.pendidikan,.minat {
+    background-color: #ECE3CE;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1%;
+    height: 50%;
+    width: 20%;
+}
+.nama img {
+    width: 10%;
+    align-items: center;
+    margin: 10% 0% 10% 45%;
+    padding: -100px;
+}
+.nama h1,.asal h1,.pendidikan h1,.minat h1 {
+    text-align: center;
+    margin-bottom: 10%;
+    font-size: 2vw;
+}
+
+.pendidikan ul,.minat ul {
+    margin-left: 10%;
+    font-size: 1.7vw;
+}
+
+.nama p, .asal p {
+    font-size: 1.7vw;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.nama img {
+    width: 30%;
+    margin-left: 35%;
+    border-radius: 50%;
+}
+
+.asal img {
+    width: 30%;
+    border-radius: 50%;
+    margin: 10% 0% 10% 35%;
+
+}
+.pendidikan img {
+    width: 30%;
+    border-radius: 50%;
+    margin: 10% 0% 10% 35%;
+
+}
+.minat img {
+    width: 30%;
+    border-radius: 50%;
+    margin: 10% 0% 10% 35%;
+}
+
+#judul_3 {
+    text-align: center; 
+    font-size: 4vw;
+    padding-top: 5%;
+}
+
+.ketiga {
+    background-color: #4F6F52;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: auto;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+
+.python , .html, .Video, .ui {
+    background-color: #ECE3CE;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1%;
+    height: 50%;
+    width: 20%;
+}
+
+.python img, .html img ,.Video img, .ui img{
+    width: 30%;
+    border-radius: 50%;
+    margin: 10% 0% 10% 35%;
+}
+
+.python h1 , .html h1, .Video h1, .ui h1 {
+    font-size: 2vw;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.ketiga p {
+    font-size: 1.7vw;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+#judul_4 {
+    text-align: center;
+    font-size: 4vw;
+    padding-top: 5%;
+}
+
+
+.Contact {
+    background-color:#4F6F52;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sosmed {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+
+.ig,.wa,.gmail,.github {
+    background-color:#ECE3CE;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1%;
+    height: 50%;
+    width: 20%;
+}
+.sosmed img {
+    width: 30%;
+    margin-left: 35%;
+    margin: 10% 0% 10% 35%;
+}
+
+.sosmed button {
+    background-color:#4F6F52;
+    border-radius: 20px;
+    width: 50%;
+    padding: 2% 0 2% 0;
+    margin: 10% 0 10% 25%;
+    font-size: 1.7vw;
+    color: white;
+    border-color: #ECE3CE;
+}
+
+.gmail h1{
+   margin-top:10% 
+}
+
+.sosmed h1{
+    text-align: center;
+    font-size: 2vw;
+    padding-top: 5%;
+}
+
+.sosmed button:hover {
+    color: #3A4D39;
+}
